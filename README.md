@@ -1,4 +1,4 @@
-# KaliBook 
+# KaliBook [![GitHub](https://img.shields.io/github/license/ronitrex/KaliBook)](./LICENSE)
 
 Some notes on setting up [Kali Linux](https://www.kali.org/) on an old [Macbook Air 2015](https://everymac.com/systems/apple/macbook-air/specs/macbook-air-core-i7-2.2-13-early-2015-specs.html).
 ![](./images/kaliOS2020.png)
@@ -26,7 +26,7 @@ Some notes on setting up [Kali Linux](https://www.kali.org/) on an old [Macbook 
 		csrutil status  //to check SIP status
  
 * Hold **alt/option** key on startup for boot menu.
-* [Add default kali repos] (https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/).
+* [Add default kali repos](https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/).
 
 		sudo nano /etc/apt/sources.list
 		deb http://http.kali.org/kali kali-rolling main non-free contrib
