@@ -1,7 +1,7 @@
 # KaliBook [![GitHub](https://img.shields.io/github/license/ronitrex/KaliBook)](./LICENSE)
 
-### OS : [Kali Linux](https://www.kali.org/)  
-### Host : [Macbook Air 2015](https://everymac.com/systems/apple/macbook-air/specs/macbook-air-core-i7-2.2-13-early-2015-specs.html)
+### OS : [**Kali Linux**](https://www.kali.org/)  
+### Host : [**Macbook Air 7,2**](https://everymac.com/systems/apple/macbook-air/specs/macbook-air-core-i7-2.2-13-early-2015-specs.html)
 
 ![](./images/kaliOS2020.png)
 
@@ -12,14 +12,16 @@
 
 * [**Overview of the current state of support for Linux on mac.**](https://github.com/Dunedan/mbp-2016-linux)
 
-* With recent kernel upgrades, the MacBooks without the touchbar now have complete support in the linux kernel. This makes the [MacBook Air 7,2](https://igotoffer.com/apple/macbook-air-7-2) a unique machine. It's old enough that it is now well supported.
+* With recent kernel upgrades, the MacBooks without the TouchBar now have complete support in the Linux kernel. This makes the [MacBook Air 7,2](https://igotoffer.com/apple/macbook-air-7-2) a unique machine. It's old enough that it is now well supported.
 * Kali Linux has introduced significant changes going into 2020. The default root user nature of previous versions of Kali made it unsuitable for daily use. [They have introduced a new theme based on Gnome, and most importantly the default user is no longer root.](https://www.kali.org/news/kali-default-non-root-user/)
 * Kali in live mode will be running as *user* **kali** *password* **kali**. No more **root**/**toor**.
 * Another interesting thing of note is that the default kernel has no out of the box support for Wi-Fi which requires the [broadcom driver](https://packages.debian.org/buster/broadcom-sta-common), so **it's best if the MacBook can be connected to the internet via USB tethering or USB to Ehernet before installation begins**.
 
 ## Cheatsheet
 
-### Must read! [Excellent page with lots of information on the whole procedure.](https://www.kali.org/docs/base-images/kali-linux-dual-boot-kali-on-mac-hardware/)
+* ### MUST READ! Excellent pages with lots of information on the whole procedure.  
+	1. [**Official Kali Linux docs**](https://www.kali.org/docs/base-images/kali-linux-dual-boot-kali-on-mac-hardware/)
+	2. [**LifeWire - How to Install and Dual Boot Linux and macOS**](https://www.lifewire.com/dual-boot-linux-and-mac-os-4125733)
 
 
 * Use **cmd+R** to boot into recovery. [Choose utilities and use following commands to change System Integrity Protection or SIP](https://support.intego.com/hc/en-us/articles/115003523252-How-to-Disable-System-Integrity-Protection-SIP-).
@@ -28,6 +30,7 @@
 		csrutil enable  //to enable SIP again
 		csrutil status  //to check SIP status
  
+* [rEFInd](http://www.rodsbooks.com/refind/) is a boot manager for EFI and UEFI computers. [Installing rEFInd.](http://www.rodsbooks.com/refind/installing.html) 
 * Hold **alt/option** key on startup for boot menu.
 * [Default Kali repos.](https://www.kali.org/docs/general-use/kali-linux-sources-list-repositories/)
 
