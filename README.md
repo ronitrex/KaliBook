@@ -24,7 +24,7 @@
 	2. [**LifeWire - How to Install and Dual Boot Linux and macOS**](https://www.lifewire.com/dual-boot-linux-and-mac-os-4125733)
 
 
-* Use **cmd+R** to boot into recovery. [Choose utilities and use following commands to change System Integrity Protection or SIP](https://support.intego.com/hc/en-us/articles/115003523252-How-to-Disable-System-Integrity-Protection-SIP-).
+* Use **cmd+R** to boot into recovery. [Choose utilities and use following commands to change System Integrity Protection or SIP.](https://support.intego.com/hc/en-us/articles/115003523252-How-to-Disable-System-Integrity-Protection-SIP-)
  
 		csrutil disable //to disable SIP
 		csrutil enable  //to enable SIP again
@@ -66,15 +66,15 @@
 		sudo apt update
 		sudo apt install i3
 	
-	For Gnome
+	For Gnome:
 	
 	 	sudo apt-get install gnome-core kali-defaults kali-root-login desktop-base
 
-* [Configure network from command line](https://developer.gnome.org/NetworkManager/unstable/nmcli-examples.html)
+* [Configure network from command line.](https://developer.gnome.org/NetworkManager/unstable/nmcli-examples.html)
 
 		nmcli connection
 
-* [Adding Broadcom Wi-Fi drivers](https://wiki.debian.org/wl)
+* [Adding Broadcom Wi-Fi drivers.](https://wiki.debian.org/wl)
 
 		sudo apt-get update
 		sudo apt-get install linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,') linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,') broadcom-sta-dkms
@@ -87,7 +87,9 @@
 	
 		sudo sh ./install.sh
 	
-* [System Information](https://github.com/dylanaraps/neofetch)
+* Install [zsh](https://en.wikipedia.org/wiki/Z_shell) and [configure with oh-my-zh.](https://dev.to/mskian/install-z-shell-oh-my-zsh-on-ubuntu-1804-lts-4cm4)
+
+* [System Information.](https://github.com/dylanaraps/neofetch)
 
 		neofetch
 
